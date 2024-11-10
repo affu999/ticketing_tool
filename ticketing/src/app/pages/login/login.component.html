@@ -1,0 +1,11 @@
+<div class="parent">
+    <div class="form">
+      <form class="login-form" action="" method="post">
+        <i class="fa-solid fa-user"></i>
+        <input [(ngModel)]="loginModel.userName" class="user-input" type="text" name="userName" placeholder="Username" required>
+        <input [(ngModel)]="loginModel.password" class="user-input" type="password" name="password" placeholder="Password" required>
+        <input class="btn" type="button" (click)="onLogin()" value="LOGIN">
+      </form>
+      <br>
+      <br>
+    </div>
