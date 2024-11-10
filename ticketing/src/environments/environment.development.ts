@@ -1,3 +1,3 @@
 export const environment = {
-    API_ENDPOINT: 'https://freeapi.miniprojectideas.com/api/TicketsNew/'
+    BASE_URL: 'http://localhost:3000/api/TicketsNew/'
 };
