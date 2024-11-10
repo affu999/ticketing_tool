@@ -25,3 +25,23 @@ export class LoginModel{
         this.password = "";
     }
 }
+
+export class EmployeeModel {
+    employeeId: number;
+    employeeName: string;
+    deptId: number;
+    deptName: string;
+    contactNo: string;
+    emailId: string;
+    role: string;
+
+    constructor() {
+        this.employeeId = 0
+        this.employeeName = "";
+        this.deptId = 0;
+        this.deptName = "";
+        this.contactNo = "";
+        this.emailId = "";
+        this.role = "";
+    }
+}

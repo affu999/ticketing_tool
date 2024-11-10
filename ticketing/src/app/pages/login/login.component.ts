@@ -25,7 +25,7 @@ export class LoginComponent {
     this.employeeService.login(this.loginModel).subscribe((res: APIResponse) => {
       if(res.result){
         console.log(res.data);
-        localStorage.setItem('loginData', JSON.stringify(res.data));
+        localStorage.setItem('loginData', JSON.stringify(res.data[0]));
         this.router.navigateByUrl('dashboard');
       }else{
         alert(res.message);
