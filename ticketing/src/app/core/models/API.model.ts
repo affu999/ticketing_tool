@@ -8,10 +8,12 @@ export class Department{
     deptId: number;
     deptName: string;
     deptHeadEmpId: number;
+    deptHeadName: string;
     createdDate: Date;
     constructor(){
         this.deptId = 0;
         this.deptName = '';
+        this.deptHeadName = '';
         this.deptHeadEmpId = 0;
         this.createdDate = new Date();
     }

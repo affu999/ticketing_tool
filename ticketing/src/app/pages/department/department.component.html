@@ -1,1 +1,62 @@
-<p>department works!</p>
+<div class="row">
+    <div class="col-8">
+        <div class="card">
+            <div class="card-header bg-success">
+                Department List
+            </div>
+            <div class="card-body">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Sr No</th>
+                            <th>Department Name</th>
+                            <th>Department Head</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let dept of departmentList; let i = index">
+                            <td>{{i+1}}</td>
+                            <td>{{dept.deptName}}</td>
+                            <td>{{dept.deptHeadName | na}}</td>
+                            <td class="text-center">
+                                <button (click)="onDeptEdit(dept)" class="btn btn-success btn-sm mx-2">Edit</button>
+                                <button (click)="onDeptDelete(dept.deptId)" class="btn btn-danger btn-sm mx-2">Delete</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="col-4">
+        <div class="card">
+            <div class="card-header bg-success">
+                Create New Department
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-12">
+                        <label for="department">Department Name</label>
+                        <input [(ngModel)]="departmentObj.deptName" type="text" name="department" class="form-control">
+                    </div>
+                    <div class="col-12">
+                        <label>Select Department Head</label>
+                        <select class="form-select" [(ngModel)]="departmentObj.deptHeadEmpId">
+                            <option *ngFor="let emp of employeeList$ | async" [value]="emp.employeeId">
+                                {{emp.employeeName}}
+                            </option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-12 text-center">
+                        <button class="btn btn-secondary" (click)="onReset()">Reset</button>
+                        <button *ngIf="departmentObj.deptId == 0" class="btn btn-success mx-2" (click)="onSaveDept()">Save</button>
+                        <button *ngIf="departmentObj.deptId != 0" class="btn btn-success mx-2" (click)="onSaveDept()">Update</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
