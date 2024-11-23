@@ -6,6 +6,7 @@ import { EmployeeComponent } from './pages/employee/employee.component';
 import { DepartmentComponent } from './pages/department/department.component';
 import { TicketsComponent } from './pages/tickets/tickets.component';
 import { NewTicketComponent } from './pages/new-ticket/new-ticket.component';
+import { authGuard } from './core/guards/auth.guard';
 
 export const routes: Routes = [
     {
@@ -20,6 +21,7 @@ export const routes: Routes = [
     {
         path: '',
         component: LayoutComponent,
+        canActivate: [authGuard],
         children: [
             {
                 path: 'dashboard',
@@ -42,5 +44,9 @@ export const routes: Routes = [
                 component: NewTicketComponent
             }
         ]
+    },
+    {
+        path: '**',
+        redirectTo: 'login'
     }
 ];

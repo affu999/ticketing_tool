@@ -1,13 +1,15 @@
 import { Component, OnInit } from '@angular/core';
-import { RouterLink, RouterOutlet } from '@angular/router';
+import { Router, RouterLink, RouterOutlet } from '@angular/router';
 import { EmployeeModel } from '../../core/models/API.model';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-layout',
   standalone: true,
   imports: [
     RouterOutlet,
-    RouterLink
+    RouterLink,
+    CommonModule
   ],
   templateUrl: './layout.component.html',
   styleUrl: './layout.component.css'
@@ -15,6 +17,8 @@ import { EmployeeModel } from '../../core/models/API.model';
 export class LayoutComponent implements OnInit {
 
   employeeModel: EmployeeModel = new EmployeeModel();
+
+  constructor(private router: Router){}
 
   ngOnInit() {
     this.navbarSettings();
@@ -49,5 +53,10 @@ export class LayoutComponent implements OnInit {
     }
   }
 
-  
+  logout(event: Event){
+    event.preventDefault();
+    localStorage.removeItem('loginData');
+    this.router.navigateByUrl('/login');
+  }
+
 }

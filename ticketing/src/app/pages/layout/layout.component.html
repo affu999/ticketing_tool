@@ -12,14 +12,14 @@
         </a>
         <span class="tooltip">Dashboard</span>
       </li>
-      <li>
+      <li *ngIf="employeeModel.role === 'Super Admin'">
         <a routerLink="/employee">
           <i class='bx bx-user'></i>
           <span class="links_name">Employee</span>
         </a>
         <span class="tooltip">Employee</span>
       </li>
-      <li>
+      <li *ngIf="employeeModel.role === 'Super Admin'">
         <a routerLink="/department">
           <i class='bx bx-chat'></i>
           <span class="links_name">Department</span>
@@ -45,6 +45,9 @@
           <div class="name_job">
             <div class="name">{{employeeModel.employeeName}}</div>
             <div class="job">{{employeeModel.emailId}}</div>
+            <div class="job">
+              <span (click)="logout($event)">Logout</span>
+            </div>
           </div>
         </div>
         <span class='bx bx-log-out' id="log_out"></span> 
