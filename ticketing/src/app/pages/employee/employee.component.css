@@ -1,0 +1,9 @@
+.employee-list-container{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.create-emp-form{
+    width: 32%;
+    margin-left: 10px;
+}
