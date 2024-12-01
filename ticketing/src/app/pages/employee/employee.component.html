@@ -37,7 +37,7 @@
                 </div>
             </div>
         </div>
-        <div [ngClass]="isEmpForm? '': 'visually-hidden'" class="col-4 create-emp-form">
+        <form [formGroup]="empForm" [ngClass]="isEmpForm? '': 'visually-hidden'" class="col-4 create-emp-form">
             <div class="border border-1 border-secondary rounded p-2">
                 <div class="row align-items-center justify-content-end">
                     <button (click)="isEmpForm = false" class="col-2 btn btn-sm btn-secondary me-2">Close</button>
@@ -45,33 +45,33 @@
                 <div class="row">
                     <div class="col-6">
                         <label for="empName" class="form-label">Name</label>
-                        <input type="text" id="empName" class="form-control">
+                        <input formControlName="name" type="text" id="empName" class="form-control">
                     </div>
                     <div class="col-6">
                         <label for="empContact" class="form-label">Contact No</label>
-                        <input type="text" id="empContact" class="form-control">
+                        <input formControlName="contact" type="text" id="empContact" class="form-control">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-6">
                         <label for="empEmail" class="form-label">Email-Id</label>
-                        <input type="text" id="empEmail" class="form-control">
+                        <input formControlName="email" type="text" id="empEmail" class="form-control">
                     </div>
                     <div class="col-6 d-flex align-items-center justify-content-center">
-                        <input class="form-check-input ms-2" type="radio" value="male" id="empGender" name="empGender">
+                        <input formControlName="empGender" class="form-check-input ms-2" type="radio" value="male" id="empGender" name="empGender">
                         <label class="form-check-label ms-1" for="empGender">Male</label>
-                        <input class="form-check-input ms-2" type="radio" value="female" id="empGender" name="empGender">
+                        <input formControlName="empGender" class="form-check-input ms-2" type="radio" value="female" id="empGender" name="empGender">
                         <label class="form-check-label ms-1" for="empGender">Female</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-6">
                         <label for="empPassword" class="form-label">Password</label>
-                        <input type="password" id="empPassword" class="form-control">
+                        <input formControlName="password" type="password" id="empPassword" class="form-control">
                     </div>
                     <div class="col-6">
                         <label for="empDept" class="form-label">Select Department</label>
-                        <select class="form-select" name="empDept" id="empDept">
+                        <select formControlName="dept" class="form-select" name="empDept" id="empDept">
                             @for (dept of allDept$ | async; track dept.deptId) {
                                 <option [value]="dept.deptId">{{dept.deptName}}</option>
                             }
@@ -81,7 +81,7 @@
                 <div class="row">
                     <div class="col-6">
                         <label for="empRole" class="form-label">Select Role</label>
-                        <select class="form-select" name="empRole" id="empRole">
+                        <select formControlName="role" class="form-select" name="empRole" id="empRole">
                             <option value="employee">Employee</option>
                             <option value="deptHead">Admin Department Employee</option>
                             <option value="deptHead">Department Head</option>
@@ -91,13 +91,13 @@
                 </div>
                 <div class="row mt-2">
                     <div class="col-6 text-center">
-                        <button class="btn btn-secondary rounded">Reset</button>
+                        <button (click)="resetEmpForm()" class="btn btn-secondary rounded">Reset</button>
                     </div>
                     <div class="col-6 text-center">
-                        <button class="btn btn-success rounded">Save Employee</button>
+                        <button class="btn btn-success rounded" (click)="saveEmployee()">Save Employee</button>
                     </div>
                 </div>
             </div>
-        </div>
+        </form>
     </div>
 </div>
