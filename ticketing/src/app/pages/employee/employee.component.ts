@@ -5,7 +5,6 @@ import { APIResponse, Department, EmployeeModel } from '../../core/models/API.mo
 import { CommonModule } from '@angular/common';
 import { EmployeeService } from '../../core/services/employee.service';
 import { FormBuilder, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
-import { BrowserModule } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-employee',
