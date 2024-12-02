@@ -5,7 +5,8 @@ export const Constant = {
         UPDATE_DEPARTMENT: 'UpdateDepartment',
         DELETE_DEPARTMENT: 'DeleteDepartment?id=',
         LOGIN: 'Login',
-        GET_EMPLOYEE: 'GetEmployees'
+        GET_EMPLOYEE: 'GetEmployees',
+        CREATE_NEW_TICKET: 'CreateNewTicket'
     },
     VALIDATION_MESSAGE: {
         REQUIRED: 'This is Required'

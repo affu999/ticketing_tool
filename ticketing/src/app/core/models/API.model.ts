@@ -47,3 +47,11 @@ export class EmployeeModel {
         this.role = "";
     }
 }
+
+export interface NewTicket {
+    employeeId: number;
+    severity: string;
+    deptId: number;
+    state: string;
+    requestDetails: string;
+  }
