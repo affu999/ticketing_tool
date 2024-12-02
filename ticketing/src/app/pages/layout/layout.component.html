@@ -5,13 +5,13 @@
       <i class='bx bx-menu' id="btn"></i>
     </div>
     <ul class="nav-list">
-      <li>
+      <!-- <li>
         <a routerLink="/dashboard">
           <i class='bx bx-grid-alt'></i>
           <span class="links_name">Dashboard</span>
         </a>
         <span class="tooltip">Dashboard</span>
-      </li>
+      </li> -->
       <li *ngIf="employeeModel.role === 'Super Admin'">
         <a routerLink="/employee">
           <i class='bx bx-user'></i>
@@ -32,13 +32,6 @@
           <span class="links_name">Tickets</span>
         </a>
         <span class="tooltip">Tickets</span>
-      </li>
-      <li>
-        <a routerLink="/new-ticket">
-          <i class='bx bx-folder'></i>
-          <span class="links_name">New Ticket</span>
-        </a>
-        <span class="tooltip">New Ticket</span>
       </li>
       <li class="profile">
         <div class="profile-details">

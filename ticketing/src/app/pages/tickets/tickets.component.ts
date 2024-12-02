@@ -1,7 +1,7 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
 import { DepartmentService } from '../../core/services/department.service';
 import { map, Observable } from 'rxjs';
-import { APIResponse, Department, NewTicket } from '../../core/models/API.model';
+import { APIResponse, Department, NewTicket, Ticket } from '../../core/models/API.model';
 import { CommonModule } from '@angular/common';
 import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { TicketsService } from '../../core/services/tickets.service';
@@ -19,6 +19,7 @@ import { TicketsService } from '../../core/services/tickets.service';
 export class TicketsComponent {
   @ViewChild('newTicketModal') newTicketModal!: ElementRef<HTMLDivElement>;
   allDept$!: Observable<Department[]>
+  empTickets$!: Observable<Ticket[]>;
   newTicketForm: FormGroup;
   empId: any;
   constructor(
@@ -36,6 +37,10 @@ export class TicketsComponent {
     this.empId = localStorage.getItem('loginData');
     this.empId = JSON.parse(this.empId);
     this.allDept$ = this.deptService.getAllDept().pipe(map((res: APIResponse) => {
+      return res.data;
+    }));
+    
+    this.empTickets$ = this.ticketService.getEmployeeTickets().pipe(map((res: APIResponse) => {
       return res.data;
     }));
   }

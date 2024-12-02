@@ -3,7 +3,7 @@
         <div [ngClass]="isEmpForm? 'col-8': 'col-12'" class="border border-1 border-secondary rounded">
             <div class="row bg-success mb-2 align-items-center">
                 <div class="col-10 h3">Employee List</div>
-                <button (click)="isEmpForm = true" class="col-2 btn btn-secondary btn-sm ms-5" style="height:30px; width:10%">+</button>
+                <button (click)="isEmpForm = true" class="col-2 btn btn-secondary btn-sm ms-5" style="height:30px; width:10%">New</button>
             </div>
             <div class="row">
                 <div *ngFor="let emp of allEmployees$ | async" class="col-4 d-flex mb-2">

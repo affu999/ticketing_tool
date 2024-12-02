@@ -10,13 +10,32 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-4 d-flex mb-2">
-            <div class="card w-100">
+        <div *ngFor="let ticket of empTickets$ | async;" class="col-3 d-flex mb-2">
+            <div class="card">
                 <div class="card-header bg-primary">
-                    Employee Number...
+                    {{ticket.deptName}}
                 </div>
                 <div class="card-body">
-                    
+                    <div class="row text-center">
+                        <div class="col-6">
+                            <label><b>State</b></label>
+                            <p>{{ticket.state}}</p>
+                        </div>
+                        <div class="col-6">
+                            <label><b>Severity</b></label>
+                            <p>{{ticket.severity}}</p>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-6">
+                            <label><b>Created Date</b></label>
+                            <p>{{ticket.createdDate | date: 'dd-MM-YYYY'}}</p>
+                        </div>
+                        <div class="col-6">
+                            <label><b>Expected Completion date</b></label>
+                            <p>{{ticket.expectedEndDate | date: 'dd-MM-YYYY'}}</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

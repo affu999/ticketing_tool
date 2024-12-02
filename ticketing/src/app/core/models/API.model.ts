@@ -55,3 +55,17 @@ export interface NewTicket {
     state: string;
     requestDetails: string;
   }
+
+export class Ticket{
+    ticketId!: number;
+    createdDate!: string;
+    expectedEndDate!: string;
+    state!: string;
+    severity!: string;
+    contactNo!: string;
+    ticketNo!: string;
+    deptName!: string;
+    createdByEmployee!: string;
+    assignedToEmployee!: string;
+    completedDate!: null;
+  }

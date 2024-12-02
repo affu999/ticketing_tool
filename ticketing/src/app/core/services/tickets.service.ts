@@ -15,4 +15,8 @@ export class TicketsService {
   createNewTicket(newTicket: NewTicket): Observable<APIResponse>{
     return this.http.post<APIResponse>(environment.BASE_URL + Constant.API_ENDPOINT.CREATE_NEW_TICKET, newTicket);
   }
+
+  getEmployeeTickets(): Observable<APIResponse>{
+    return this.http.get<APIResponse>(environment.BASE_URL + Constant.API_ENDPOINT.GET_TICKETS_CREATED_BY_EMPLOYEE);
+  }
 }
