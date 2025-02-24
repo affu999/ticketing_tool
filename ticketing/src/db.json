@@ -1,0 +1,1771 @@
+{
+    "/api/TicketsNew/GetDepartments": {
+      "message": "",
+      "result": true,
+      "data": [
+        {
+          "deptId": 176,
+          "deptName": "More Edit333fd",
+          "deptHeadName": "Raj",
+          "deptHeadEmpId": 334,
+          "createdDate": "2024-08-12T00:00:00"
+        },
+        {
+          "deptId": 177,
+          "deptName": "Software",
+          "deptHeadName": "Raj",
+          "deptHeadEmpId": 334,
+          "createdDate": "2024-05-18T00:00:00"
+        },
+        {
+          "deptId": 178,
+          "deptName": "Fianancement",
+          "deptHeadName": "Mrunamyi",
+          "deptHeadEmpId": 335,
+          "createdDate": "2024-05-18T00:00:00"
+        },
+        {
+          "deptId": 179,
+          "deptName": "HR",
+          "deptHeadName": "pratiksha",
+          "deptHeadEmpId": 337,
+          "createdDate": "2024-05-19T00:00:00"
+        },
+        {
+          "deptId": 180,
+          "deptName": "Management",
+          "deptHeadName": "Raj",
+          "deptHeadEmpId": 334,
+          "createdDate": "2024-05-19T00:00:00"
+        },
+        {
+          "deptId": 181,
+          "deptName": "string",
+          "deptHeadName": "Mrunamyi",
+          "deptHeadEmpId": 335,
+          "createdDate": "2024-05-21T00:00:00"
+        },
+        {
+          "deptId": 182,
+          "deptName": "hjK",
+          "deptHeadName": "Avdut",
+          "deptHeadEmpId": 336,
+          "createdDate": "2024-05-25T00:00:00"
+        },
+        {
+          "deptId": 183,
+          "deptName": "Electronics",
+          "deptHeadName": "kaveri",
+          "deptHeadEmpId": 341,
+          "createdDate": "2024-05-28T00:00:00"
+        },
+        {
+          "deptId": 184,
+          "deptName": "build developemt",
+          "deptHeadName": "Ishu",
+          "deptHeadEmpId": 342,
+          "createdDate": "2024-06-03T00:00:00"
+        },
+        {
+          "deptId": 185,
+          "deptName": "heavy metals",
+          "deptHeadName": "tejal",
+          "deptHeadEmpId": 344,
+          "createdDate": "2024-06-05T00:00:00"
+        },
+        {
+          "deptId": 186,
+          "deptName": "plastic",
+          "deptHeadName": "nib",
+          "deptHeadEmpId": 348,
+          "createdDate": "2024-06-05T00:00:00"
+        },
+        {
+          "deptId": 187,
+          "deptName": "liquid",
+          "deptHeadName": "nib2",
+          "deptHeadEmpId": 349,
+          "createdDate": "2024-06-05T00:00:00"
+        },
+        {
+          "deptId": 188,
+          "deptName": "my dept",
+          "deptHeadName": "abc",
+          "deptHeadEmpId": 350,
+          "createdDate": "2024-06-05T00:00:00"
+        },
+        {
+          "deptId": 189,
+          "deptName": "computer",
+          "deptHeadName": "aaaa",
+          "deptHeadEmpId": 354,
+          "createdDate": "2024-06-06T00:00:00"
+        },
+        {
+          "deptId": 190,
+          "deptName": "liquid1a",
+          "deptHeadName": "bbbb",
+          "deptHeadEmpId": 355,
+          "createdDate": "2024-06-09T00:00:00"
+        },
+        {
+          "deptId": 191,
+          "deptName": "solid",
+          "deptHeadName": "cccc",
+          "deptHeadEmpId": 356,
+          "createdDate": "2024-06-09T00:00:00"
+        },
+        {
+          "deptId": 192,
+          "deptName": "solid-2",
+          "deptHeadName": "dddd",
+          "deptHeadEmpId": 357,
+          "createdDate": "2024-06-09T00:00:00"
+        },
+        {
+          "deptId": 193,
+          "deptName": "kkk",
+          "deptHeadName": null,
+          "deptHeadEmpId": 0,
+          "createdDate": "2024-06-09T00:00:00"
+        },
+        {
+          "deptId": 194,
+          "deptName": "rock",
+          "deptHeadName": "md Nibras",
+          "deptHeadEmpId": 365,
+          "createdDate": "2024-06-09T00:00:00"
+        },
+        {
+          "deptId": 195,
+          "deptName": "liq-3",
+          "deptHeadName": "khan",
+          "deptHeadEmpId": 368,
+          "createdDate": "2024-06-09T00:00:00"
+        },
+        {
+          "deptId": 196,
+          "deptName": "cold-oxygen",
+          "deptHeadName": "khan3",
+          "deptHeadEmpId": 369,
+          "createdDate": "2024-06-12T00:00:00"
+        },
+        {
+          "deptId": 197,
+          "deptName": "cold-nitrogen",
+          "deptHeadName": "khan4",
+          "deptHeadEmpId": 370,
+          "createdDate": "2024-06-12T00:00:00"
+        },
+        {
+          "deptId": 198,
+          "deptName": "salfar",
+          "deptHeadName": "khan5",
+          "deptHeadEmpId": 371,
+          "createdDate": "2024-06-12T00:00:00"
+        },
+        {
+          "deptId": 199,
+          "deptName": "solid-nitrogen",
+          "deptHeadName": "hell Amin",
+          "deptHeadEmpId": 373,
+          "createdDate": "2024-06-12T00:00:00"
+        },
+        {
+          "deptId": 200,
+          "deptName": "CA",
+          "deptHeadName": "ok mian",
+          "deptHeadEmpId": 374,
+          "createdDate": "2024-06-12T00:00:00"
+        },
+        {
+          "deptId": 201,
+          "deptName": "Hiepdz",
+          "deptHeadName": null,
+          "deptHeadEmpId": 99,
+          "createdDate": "2024-06-13T00:00:00"
+        },
+        {
+          "deptId": 202,
+          "deptName": "h2so4",
+          "deptHeadName": "khan6",
+          "deptHeadEmpId": 375,
+          "createdDate": "2024-06-13T00:00:00"
+        },
+        {
+          "deptId": 203,
+          "deptName": "HCL-min",
+          "deptHeadName": "khan7",
+          "deptHeadEmpId": 376,
+          "createdDate": "2024-06-13T00:00:00"
+        },
+        {
+          "deptId": 204,
+          "deptName": "Lohith",
+          "deptHeadName": null,
+          "deptHeadEmpId": 3,
+          "createdDate": "2024-06-15T00:00:00"
+        },
+        {
+          "deptId": 205,
+          "deptName": "njjokl",
+          "deptHeadName": "Raj",
+          "deptHeadEmpId": 334,
+          "createdDate": null
+        },
+        {
+          "deptId": 206,
+          "deptName": "InOfThings",
+          "deptHeadName": "Mario Pagano",
+          "deptHeadEmpId": 433,
+          "createdDate": "2024-06-27T00:00:00"
+        },
+        {
+          "deptId": 207,
+          "deptName": "fruit1",
+          "deptHeadName": "hiu",
+          "deptHeadEmpId": 397,
+          "createdDate": "2024-07-01T00:00:00"
+        },
+        {
+          "deptId": 208,
+          "deptName": "fruit2",
+          "deptHeadName": "uuruu",
+          "deptHeadEmpId": 408,
+          "createdDate": "2024-07-01T00:00:00"
+        },
+        {
+          "deptId": 209,
+          "deptName": "rice",
+          "deptHeadName": "lohi",
+          "deptHeadEmpId": 423,
+          "createdDate": "2024-07-01T00:00:00"
+        },
+        {
+          "deptId": 210,
+          "deptName": "oil",
+          "deptHeadName": "LohithMani",
+          "deptHeadEmpId": 417,
+          "createdDate": "2024-07-01T00:00:00"
+        },
+        {
+          "deptId": 211,
+          "deptName": "water",
+          "deptHeadName": "raza",
+          "deptHeadEmpId": 442,
+          "createdDate": "2024-07-01T00:00:00"
+        },
+        {
+          "deptId": 212,
+          "deptName": "abcd",
+          "deptHeadName": "asdasdasd123",
+          "deptHeadEmpId": 440,
+          "createdDate": "2024-07-01T00:00:00"
+        },
+        {
+          "deptId": 213,
+          "deptName": "sofifi",
+          "deptHeadName": "aaaa",
+          "deptHeadEmpId": 354,
+          "createdDate": "2024-07-15T00:00:00"
+        },
+        {
+          "deptId": 214,
+          "deptName": "software dev",
+          "deptHeadName": "Vaishu",
+          "deptHeadEmpId": 464,
+          "createdDate": "2024-07-17T00:00:00"
+        },
+        {
+          "deptId": 215,
+          "deptName": "test department d",
+          "deptHeadName": null,
+          "deptHeadEmpId": 121,
+          "createdDate": null
+        },
+        {
+          "deptId": 216,
+          "deptName": "Tezera Department 2",
+          "deptHeadName": null,
+          "deptHeadEmpId": 122,
+          "createdDate": "2024-08-12T00:00:00"
+        },
+        {
+          "deptId": 217,
+          "deptName": "qqq",
+          "deptHeadName": "Anjalim",
+          "deptHeadEmpId": 333,
+          "createdDate": null
+        },
+        {
+          "deptId": 218,
+          "deptName": "aaa",
+          "deptHeadName": "pratap",
+          "deptHeadEmpId": 340,
+          "createdDate": null
+        },
+        {
+          "deptId": 219,
+          "deptName": "pupunu",
+          "deptHeadName": "tester",
+          "deptHeadEmpId": 506,
+          "createdDate": null
+        },
+        {
+          "deptId": 220,
+          "deptName": "hello",
+          "deptHeadName": "ddd",
+          "deptHeadEmpId": 507,
+          "createdDate": null
+        },
+        {
+          "deptId": 221,
+          "deptName": "www",
+          "deptHeadName": "johnson",
+          "deptHeadEmpId": 491,
+          "createdDate": null
+        },
+        {
+          "deptId": 222,
+          "deptName": "poiuy",
+          "deptHeadName": "Testing",
+          "deptHeadEmpId": 518,
+          "createdDate": null
+        },
+        {
+          "deptId": 223,
+          "deptName": "name",
+          "deptHeadName": "oct",
+          "deptHeadEmpId": 519,
+          "createdDate": null
+        },
+        {
+          "deptId": 224,
+          "deptName": "Super Admin 1",
+          "deptHeadName": "Madhab",
+          "deptHeadEmpId": 520,
+          "createdDate": null
+        },
+        {
+          "deptId": 225,
+          "deptName": "robo",
+          "deptHeadName": "Santosh",
+          "deptHeadEmpId": 521,
+          "createdDate": null
+        },
+        {
+          "deptId": 226,
+          "deptName": "robotics",
+          "deptHeadName": "Pooja",
+          "deptHeadEmpId": 523,
+          "createdDate": null
+        },
+        {
+          "deptId": 227,
+          "deptName": "dff",
+          "deptHeadName": "md Nibras2",
+          "deptHeadEmpId": 366,
+          "createdDate": "2024-10-15T00:00:00"
+        },
+        {
+          "deptId": 228,
+          "deptName": "asdasd",
+          "deptHeadName": "Nabi",
+          "deptHeadEmpId": 528,
+          "createdDate": "2024-10-15T00:00:00"
+        },
+        {
+          "deptId": 229,
+          "deptName": "Ahmed",
+          "deptHeadName": "ahmad",
+          "deptHeadEmpId": 479,
+          "createdDate": "2024-10-15T00:00:00"
+        },
+        {
+          "deptId": 230,
+          "deptName": "Momen",
+          "deptHeadName": "Arjun Kumar",
+          "deptHeadEmpId": 524,
+          "createdDate": "2024-10-15T00:00:00"
+        },
+        {
+          "deptId": 231,
+          "deptName": "ali",
+          "deptHeadName": "Aksssy",
+          "deptHeadEmpId": 338,
+          "createdDate": "2024-10-31T00:00:00"
+        },
+        {
+          "deptId": 232,
+          "deptName": "mena",
+          "deptHeadName": "Swara",
+          "deptHeadEmpId": 339,
+          "createdDate": "2024-10-31T00:00:00"
+        },
+        {
+          "deptId": 233,
+          "deptName": "aliaa tarek22",
+          "deptHeadName": "ira",
+          "deptHeadEmpId": 444,
+          "createdDate": "2024-10-31T00:00:00"
+        }
+      ]
+    },
+    "/api/TicketsNew/CreateDepartment": {
+      "message": "Department Created",
+      "result": true,
+      "data": [
+        {
+          "deptId": 176,
+          "deptName": "More Edit333fd",
+          "deptHeadName": "Raj",
+          "deptHeadEmpId": 334,
+          "createdDate": "2024-08-12T00:00:00"
+        },
+        {
+          "deptId": 177,
+          "deptName": "Software",
+          "deptHeadName": "Raj",
+          "deptHeadEmpId": 334,
+          "createdDate": "2024-05-18T00:00:00"
+        },
+        {
+          "deptId": 178,
+          "deptName": "Fianancement",
+          "deptHeadName": "Mrunamyi",
+          "deptHeadEmpId": 335,
+          "createdDate": "2024-05-18T00:00:00"
+        },
+        {
+          "deptId": 179,
+          "deptName": "HR",
+          "deptHeadName": "pratiksha",
+          "deptHeadEmpId": 337,
+          "createdDate": "2024-05-19T00:00:00"
+        },
+        {
+          "deptId": 180,
+          "deptName": "Management",
+          "deptHeadName": "Raj",
+          "deptHeadEmpId": 334,
+          "createdDate": "2024-05-19T00:00:00"
+        },
+        {
+          "deptId": 181,
+          "deptName": "string",
+          "deptHeadName": "Mrunamyi",
+          "deptHeadEmpId": 335,
+          "createdDate": "2024-05-21T00:00:00"
+        },
+        {
+          "deptId": 182,
+          "deptName": "hjK",
+          "deptHeadName": "Avdut",
+          "deptHeadEmpId": 336,
+          "createdDate": "2024-05-25T00:00:00"
+        },
+        {
+          "deptId": 183,
+          "deptName": "Electronics",
+          "deptHeadName": "kaveri",
+          "deptHeadEmpId": 341,
+          "createdDate": "2024-05-28T00:00:00"
+        },
+        {
+          "deptId": 184,
+          "deptName": "build developemt",
+          "deptHeadName": "Ishu",
+          "deptHeadEmpId": 342,
+          "createdDate": "2024-06-03T00:00:00"
+        },
+        {
+          "deptId": 185,
+          "deptName": "heavy metals",
+          "deptHeadName": "tejal",
+          "deptHeadEmpId": 344,
+          "createdDate": "2024-06-05T00:00:00"
+        },
+        {
+          "deptId": 186,
+          "deptName": "plastic",
+          "deptHeadName": "nib",
+          "deptHeadEmpId": 348,
+          "createdDate": "2024-06-05T00:00:00"
+        },
+        {
+          "deptId": 187,
+          "deptName": "liquid",
+          "deptHeadName": "nib2",
+          "deptHeadEmpId": 349,
+          "createdDate": "2024-06-05T00:00:00"
+        },
+        {
+          "deptId": 188,
+          "deptName": "my dept",
+          "deptHeadName": "abc",
+          "deptHeadEmpId": 350,
+          "createdDate": "2024-06-05T00:00:00"
+        },
+        {
+          "deptId": 189,
+          "deptName": "computer",
+          "deptHeadName": "aaaa",
+          "deptHeadEmpId": 354,
+          "createdDate": "2024-06-06T00:00:00"
+        },
+        {
+          "deptId": 190,
+          "deptName": "liquid1a",
+          "deptHeadName": "bbbb",
+          "deptHeadEmpId": 355,
+          "createdDate": "2024-06-09T00:00:00"
+        },
+        {
+          "deptId": 191,
+          "deptName": "solid",
+          "deptHeadName": "cccc",
+          "deptHeadEmpId": 356,
+          "createdDate": "2024-06-09T00:00:00"
+        },
+        {
+          "deptId": 192,
+          "deptName": "solid-2",
+          "deptHeadName": "dddd",
+          "deptHeadEmpId": 357,
+          "createdDate": "2024-06-09T00:00:00"
+        },
+        {
+          "deptId": 193,
+          "deptName": "kkk",
+          "deptHeadName": null,
+          "deptHeadEmpId": 0,
+          "createdDate": "2024-06-09T00:00:00"
+        },
+        {
+          "deptId": 194,
+          "deptName": "rock",
+          "deptHeadName": "md Nibras",
+          "deptHeadEmpId": 365,
+          "createdDate": "2024-06-09T00:00:00"
+        },
+        {
+          "deptId": 195,
+          "deptName": "liq-3",
+          "deptHeadName": "khan",
+          "deptHeadEmpId": 368,
+          "createdDate": "2024-06-09T00:00:00"
+        },
+        {
+          "deptId": 196,
+          "deptName": "cold-oxygen",
+          "deptHeadName": "khan3",
+          "deptHeadEmpId": 369,
+          "createdDate": "2024-06-12T00:00:00"
+        },
+        {
+          "deptId": 197,
+          "deptName": "cold-nitrogen",
+          "deptHeadName": "khan4",
+          "deptHeadEmpId": 370,
+          "createdDate": "2024-06-12T00:00:00"
+        },
+        {
+          "deptId": 198,
+          "deptName": "salfar",
+          "deptHeadName": "khan5",
+          "deptHeadEmpId": 371,
+          "createdDate": "2024-06-12T00:00:00"
+        },
+        {
+          "deptId": 199,
+          "deptName": "solid-nitrogen",
+          "deptHeadName": "hell Amin",
+          "deptHeadEmpId": 373,
+          "createdDate": "2024-06-12T00:00:00"
+        },
+        {
+          "deptId": 200,
+          "deptName": "CA",
+          "deptHeadName": "ok mian",
+          "deptHeadEmpId": 374,
+          "createdDate": "2024-06-12T00:00:00"
+        },
+        {
+          "deptId": 201,
+          "deptName": "Hiepdz",
+          "deptHeadName": null,
+          "deptHeadEmpId": 99,
+          "createdDate": "2024-06-13T00:00:00"
+        },
+        {
+          "deptId": 202,
+          "deptName": "h2so4",
+          "deptHeadName": "khan6",
+          "deptHeadEmpId": 375,
+          "createdDate": "2024-06-13T00:00:00"
+        },
+        {
+          "deptId": 203,
+          "deptName": "HCL-min",
+          "deptHeadName": "khan7",
+          "deptHeadEmpId": 376,
+          "createdDate": "2024-06-13T00:00:00"
+        },
+        {
+          "deptId": 204,
+          "deptName": "Lohith",
+          "deptHeadName": null,
+          "deptHeadEmpId": 3,
+          "createdDate": "2024-06-15T00:00:00"
+        },
+        {
+          "deptId": 205,
+          "deptName": "njjokl",
+          "deptHeadName": "Raj",
+          "deptHeadEmpId": 334,
+          "createdDate": null
+        },
+        {
+          "deptId": 206,
+          "deptName": "InOfThings",
+          "deptHeadName": "Mario Pagano",
+          "deptHeadEmpId": 433,
+          "createdDate": "2024-06-27T00:00:00"
+        },
+        {
+          "deptId": 207,
+          "deptName": "fruit1",
+          "deptHeadName": "hiu",
+          "deptHeadEmpId": 397,
+          "createdDate": "2024-07-01T00:00:00"
+        },
+        {
+          "deptId": 208,
+          "deptName": "fruit2",
+          "deptHeadName": "uuruu",
+          "deptHeadEmpId": 408,
+          "createdDate": "2024-07-01T00:00:00"
+        },
+        {
+          "deptId": 209,
+          "deptName": "rice",
+          "deptHeadName": "lohi",
+          "deptHeadEmpId": 423,
+          "createdDate": "2024-07-01T00:00:00"
+        },
+        {
+          "deptId": 210,
+          "deptName": "oil",
+          "deptHeadName": "LohithMani",
+          "deptHeadEmpId": 417,
+          "createdDate": "2024-07-01T00:00:00"
+        },
+        {
+          "deptId": 211,
+          "deptName": "water",
+          "deptHeadName": "raza",
+          "deptHeadEmpId": 442,
+          "createdDate": "2024-07-01T00:00:00"
+        },
+        {
+          "deptId": 212,
+          "deptName": "abcd",
+          "deptHeadName": "asdasdasd123",
+          "deptHeadEmpId": 440,
+          "createdDate": "2024-07-01T00:00:00"
+        },
+        {
+          "deptId": 213,
+          "deptName": "sofifi",
+          "deptHeadName": "aaaa",
+          "deptHeadEmpId": 354,
+          "createdDate": "2024-07-15T00:00:00"
+        },
+        {
+          "deptId": 214,
+          "deptName": "software dev",
+          "deptHeadName": "Vaishu",
+          "deptHeadEmpId": 464,
+          "createdDate": "2024-07-17T00:00:00"
+        },
+        {
+          "deptId": 215,
+          "deptName": "test department d",
+          "deptHeadName": null,
+          "deptHeadEmpId": 121,
+          "createdDate": null
+        },
+        {
+          "deptId": 216,
+          "deptName": "Tezera Department 2",
+          "deptHeadName": null,
+          "deptHeadEmpId": 122,
+          "createdDate": "2024-08-12T00:00:00"
+        },
+        {
+          "deptId": 217,
+          "deptName": "qqq",
+          "deptHeadName": "Anjalim",
+          "deptHeadEmpId": 333,
+          "createdDate": null
+        },
+        {
+          "deptId": 218,
+          "deptName": "aaa",
+          "deptHeadName": "pratap",
+          "deptHeadEmpId": 340,
+          "createdDate": null
+        },
+        {
+          "deptId": 219,
+          "deptName": "pupunu",
+          "deptHeadName": "tester",
+          "deptHeadEmpId": 506,
+          "createdDate": null
+        },
+        {
+          "deptId": 220,
+          "deptName": "hello",
+          "deptHeadName": "ddd",
+          "deptHeadEmpId": 507,
+          "createdDate": null
+        },
+        {
+          "deptId": 221,
+          "deptName": "www",
+          "deptHeadName": "johnson",
+          "deptHeadEmpId": 491,
+          "createdDate": null
+        },
+        {
+          "deptId": 222,
+          "deptName": "poiuy",
+          "deptHeadName": "Testing",
+          "deptHeadEmpId": 518,
+          "createdDate": null
+        },
+        {
+          "deptId": 223,
+          "deptName": "name",
+          "deptHeadName": "oct",
+          "deptHeadEmpId": 519,
+          "createdDate": null
+        },
+        {
+          "deptId": 224,
+          "deptName": "Super Admin 1",
+          "deptHeadName": "Madhab",
+          "deptHeadEmpId": 520,
+          "createdDate": null
+        },
+        {
+          "deptId": 225,
+          "deptName": "robo",
+          "deptHeadName": "Santosh",
+          "deptHeadEmpId": 521,
+          "createdDate": null
+        },
+        {
+          "deptId": 226,
+          "deptName": "robotics",
+          "deptHeadName": "Pooja",
+          "deptHeadEmpId": 523,
+          "createdDate": null
+        },
+        {
+          "deptId": 227,
+          "deptName": "dff",
+          "deptHeadName": "md Nibras2",
+          "deptHeadEmpId": 366,
+          "createdDate": "2024-10-15T00:00:00"
+        },
+        {
+          "deptId": 228,
+          "deptName": "asdasd",
+          "deptHeadName": "Nabi",
+          "deptHeadEmpId": 528,
+          "createdDate": "2024-10-15T00:00:00"
+        },
+        {
+          "deptId": 229,
+          "deptName": "Ahmed",
+          "deptHeadName": "ahmad",
+          "deptHeadEmpId": 479,
+          "createdDate": "2024-10-15T00:00:00"
+        },
+        {
+          "deptId": 230,
+          "deptName": "Momen",
+          "deptHeadName": "Arjun Kumar",
+          "deptHeadEmpId": 524,
+          "createdDate": "2024-10-15T00:00:00"
+        },
+        {
+          "deptId": 231,
+          "deptName": "ali",
+          "deptHeadName": "Aksssy",
+          "deptHeadEmpId": 338,
+          "createdDate": "2024-10-31T00:00:00"
+        },
+        {
+          "deptId": 232,
+          "deptName": "mena",
+          "deptHeadName": "Swara",
+          "deptHeadEmpId": 339,
+          "createdDate": "2024-10-31T00:00:00"
+        },
+        {
+          "deptId": 233,
+          "deptName": "aliaa tarek22",
+          "deptHeadName": "ira",
+          "deptHeadEmpId": 444,
+          "createdDate": "2024-10-31T00:00:00"
+        }
+      ]
+    },
+    "/api/TicketsNew/UpdateDepartment": {
+      "message": "Department Updated Successfully",
+      "result": true,
+      "data": {
+        "deptId": 176,
+        "deptName": "More Edit333fd",
+        "deptHeadName": "Raj",
+        "deptHeadEmpId": 334,
+        "createdDate": "2024-08-12T00:00:00"
+      }
+    },
+    "/api/TicketsNew/DeleteDepartment": {
+      "message": "Department Updated Successfully",
+      "result": true,
+      "data": {
+        "deptId": 176,
+        "deptName": "More Edit333fd",
+        "deptHeadName": "Raj",
+        "deptHeadEmpId": 334,
+        "createdDate": "2024-08-12T00:00:00"
+      }
+    },
+    "/api/TicketsNew/GetEmployees": {
+      "message": "",
+      "result": true,
+      "data": [
+        {
+          "employeeId": 333,
+          "employeeName": "Anjalim",
+          "deptId": 176,
+          "deptName": "More Edit333fd",
+          "contactNo": "9988776655",
+          "emailId": "anjali@gmail.com",
+          "role": "Admin Department Employee"
+        },
+        {
+          "employeeId": 334,
+          "employeeName": "Raj",
+          "deptId": 177,
+          "deptName": "Software",
+          "contactNo": "1234567895",
+          "emailId": "raj@gmail.com",
+          "role": "Admin Department Employee"
+        },
+        {
+          "employeeId": 335,
+          "employeeName": "Mrunamyi",
+          "deptId": 177,
+          "deptName": "Software",
+          "contactNo": "12345678",
+          "emailId": "m@gmail.com",
+          "role": "Department Head"
+        },
+        {
+          "employeeId": 336,
+          "employeeName": "Avdut",
+          "deptId": 178,
+          "deptName": "Fianancement",
+          "contactNo": "8888888888",
+          "emailId": "a@gmail.com",
+          "role": "Department Head"
+        },
+        {
+          "employeeId": 337,
+          "employeeName": "pratiksha",
+          "deptId": 178,
+          "deptName": "Fianancement",
+          "contactNo": "9876543212",
+          "emailId": "pratu@gmail.com",
+          "role": "Employee"
+        },
+        {
+          "employeeId": 338,
+          "employeeName": "Aksssy",
+          "deptId": 176,
+          "deptName": "More Edit333fd",
+          "contactNo": "8888888888",
+          "emailId": "ak@gmail.com",
+          "role": "Employee"
+        },
+        {
+          "employeeId": 339,
+          "employeeName": "Swara",
+          "deptId": 177,
+          "deptName": "Software",
+          "contactNo": "456123",
+          "emailId": "s@gmail.com",
+          "role": "Employee"
+        },
+        {
+          "employeeId": 340,
+          "employeeName": "pratap",
+          "deptId": 179,
+          "deptName": "HR",
+          "contactNo": "856456789",
+          "emailId": "pj@gmail.com",
+          "role": "Department Head"
+        },
+        {
+          "employeeId": 341,
+          "employeeName": "kaveri",
+          "deptId": 179,
+          "deptName": "HR",
+          "contactNo": "9809876545",
+          "emailId": "kaveri@gmail.com",
+          "role": "Admin Department Employee"
+        },
+        {
+          "employeeId": 342,
+          "employeeName": "Ishu",
+          "deptId": 178,
+          "deptName": "Fianancement",
+          "contactNo": "1234567895",
+          "emailId": "I@gmail.com",
+          "role": "Admin Department Employee"
+        },
+        {
+          "employeeId": 344,
+          "employeeName": "tejal",
+          "deptId": 179,
+          "deptName": "HR",
+          "contactNo": "0987654567",
+          "emailId": "teju@gmail.com",
+          "role": "Department Head"
+        },
+        {
+          "employeeId": 348,
+          "employeeName": "nib",
+          "deptId": 177,
+          "deptName": "Software",
+          "contactNo": "1234567",
+          "emailId": "abc@gmail.com",
+          "role": "Employee"
+        },
+        {
+          "employeeId": 349,
+          "employeeName": "nib2",
+          "deptId": 179,
+          "deptName": "HR",
+          "contactNo": "1234567",
+          "emailId": "abc2@gmail.con",
+          "role": "Department Head"
+        },
+        {
+          "employeeId": 350,
+          "employeeName": "abc",
+          "deptId": 176,
+          "deptName": "More Edit333fd",
+          "contactNo": "121212",
+          "emailId": "abc3@gmail.com",
+          "role": "Department Head"
+        },
+        {
+          "employeeId": 354,
+          "employeeName": "aaaa",
+          "deptId": 177,
+          "deptName": "Software",
+          "contactNo": "111111",
+          "emailId": "aaaa@gmail.com",
+          "role": "Employee"
+        },
+        {
+          "employeeId": 355,
+          "employeeName": "bbbb",
+          "deptId": 177,
+          "deptName": "Software",
+          "contactNo": "121212",
+          "emailId": "bbb@gmail.com",
+          "role": "Employee"
+        },
+        {
+          "employeeId": 356,
+          "employeeName": "cccc",
+          "deptId": 178,
+          "deptName": "Fianancement",
+          "contactNo": "1234567",
+          "emailId": "ccc@gmail.com",
+          "role": "Department Head"
+        },
+        {
+          "employeeId": 357,
+          "employeeName": "dddd",
+          "deptId": 178,
+          "deptName": "Fianancement",
+          "contactNo": "1234567",
+          "emailId": "ddd@gmail.com",
+          "role": "Department Head"
+        },
+        {
+          "employeeId": 365,
+          "employeeName": "md Nibras",
+          "deptId": 177,
+          "deptName": "Software",
+          "contactNo": "1234567",
+          "emailId": "why@gmail.com",
+          "role": "Department Head"
+        },
+        {
+          "employeeId": 366,
+          "employeeName": "md Nibras2",
+          "deptId": 177,
+          "deptName": "Software",
+          "contactNo": "1122333221",
+          "emailId": "gf@gmail.com",
+          "role": "Department Head"
+        },
+        {
+          "employeeId": 368,
+          "employeeName": "khan",
+          "deptId": 177,
+          "deptName": "Software",
+          "contactNo": "899382",
+          "emailId": "khan@gmail.com",
+          "role": "Employee"
+        },
+        {
+          "employeeId": 369,
+          "employeeName": "khan3",
+          "deptId": 176,
+          "deptName": "More Edit333fd",
+          "contactNo": "12343216",
+          "emailId": "khan3@gmail.com",
+          "role": "Employee"
+        },
+        {
+          "employeeId": 370,
+          "employeeName": "khan4",
+          "deptId": 177,
+          "deptName": "Software",
+          "contactNo": "192384",
+          "emailId": "khan4@gmail.com",
+          "role": "Employee"
+        },
+        {
+          "employeeId": 371,
+          "employeeName": "khan5",
+          "deptId": 177,
+          "deptName": "Software",
+          "contactNo": "12345437",
+          "emailId": "khan5@gmail.com",
+          "role": "Employee"
+        },
+        {
+          "employeeId": 373,
+          "employeeName": "hell Amin",
+          "deptId": 198,
+          "deptName": "salfar",
+          "contactNo": "1133557799",
+          "emailId": "hell@gmail.com",
+          "role": "Employee"
+        },
+        {
+          "employeeId": 374,
+          "employeeName": "ok mian",
+          "deptId": 199,
+          "deptName": "solid-nitrogen",
+          "contactNo": "6677887766",
+          "emailId": "ok@gmail.com",
+          "role": "Employee"
+        },
+        {
+          "employeeId": 375,
+          "employeeName": "khan6",
+          "deptId": 177,
+          "deptName": "Software",
+          "contactNo": "8899787898",
+          "emailId": "khan6@gmail.com",
+          "role": "Employee"
+        },
+        {
+          "employeeId": 376,
+          "employeeName": "khan7",
+          "deptId": 195,
+          "deptName": "liq-3",
+          "contactNo": "798797887",
+          "emailId": "khan7@gmail.com",
+          "role": "Employee"
+        },
+        {
+          "employeeId": 397,
+          "employeeName": "hiu",
+          "deptId": 187,
+          "deptName": "liquid",
+          "contactNo": "0123456789",
+          "emailId": "hi@gmail.com",
+          "role": "Super Admin"
+        },
+        {
+          "employeeId": 408,
+          "employeeName": "uuruu",
+          "deptId": 179,
+          "deptName": "HR",
+          "contactNo": "49495499",
+          "emailId": "l@hm.coq",
+          "role": "Admin Department Employee"
+        },
+        {
+          "employeeId": 409,
+          "employeeName": "pk",
+          "deptId": 180,
+          "deptName": "Management",
+          "contactNo": "94594959`",
+          "emailId": "pk@gmail.com",
+          "role": "Admin Department Employee"
+        },
+        {
+          "employeeId": 417,
+          "employeeName": "LohithMani",
+          "deptId": 177,
+          "deptName": "Software",
+          "contactNo": "9876543210",
+          "emailId": "lm@gmail.com",
+          "role": "Department Head"
+        },
+        {
+          "employeeId": 423,
+          "employeeName": "lohi",
+          "deptId": 178,
+          "deptName": "Fianancement",
+          "contactNo": "6885858",
+          "emailId": "lohi@gmail.com",
+          "role": "Department Head"
+        },
+        {
+          "employeeId": 433,
+          "employeeName": "Mario Pagano",
+          "deptId": 176,
+          "deptName": "More Edit333fd",
+          "contactNo": "1234567894",
+          "emailId": "mpagano@email.it",
+          "role": "Employee"
+        },
+        {
+          "employeeId": 437,
+          "employeeName": "Marrazzo Giggino",
+          "deptId": 177,
+          "deptName": "Software",
+          "contactNo": "3271425789",
+          "emailId": "gimarrazzo@email.it",
+          "role": "Employee"
+        },
+        {
+          "employeeId": 438,
+          "employeeName": "Pappalardo Mario",
+          "deptId": 206,
+          "deptName": "InOfThings",
+          "contactNo": "1234089657",
+          "emailId": "mapa@email.it",
+          "role": "Super Admin"
+        },
+        {
+          "employeeId": 440,
+          "employeeName": "asdasdasd123",
+          "deptId": 178,
+          "deptName": "Fianancement",
+          "contactNo": "1231231231",
+          "emailId": "lalla@embolo.it",
+          "role": "Admin Department Employee"
+        },
+        {
+          "employeeId": 442,
+          "employeeName": "raza",
+          "deptId": 176,
+          "deptName": "More Edit333fd",
+          "contactNo": "1122334455",
+          "emailId": "raza@gmail.com",
+          "role": "Admin"
+        },
+        {
+          "employeeId": 444,
+          "employeeName": "ira",
+          "deptId": 176,
+          "deptName": "More Edit333fd",
+          "contactNo": "string",
+          "emailId": "i.salihu@gmail.com",
+          "role": "Admin Department Employee"
+        },
+        {
+          "employeeId": 445,
+          "employeeName": "Mingu",
+          "deptId": 177,
+          "deptName": "Software",
+          "contactNo": "1234567890",
+          "emailId": "mingu@gmail.com",
+          "role": "Department Head"
+        },
+        {
+          "employeeId": 464,
+          "employeeName": "Vaishu",
+          "deptId": 178,
+          "deptName": "Fianancement",
+          "contactNo": "1029384765",
+          "emailId": "vaishu12@gmail.com",
+          "role": "Super Admin"
+        },
+        {
+          "employeeId": 477,
+          "employeeName": "string",
+          "deptId": 176,
+          "deptName": "More Edit333fd",
+          "contactNo": "string",
+          "emailId": "abc1818@gmail.com",
+          "role": "string"
+        },
+        {
+          "employeeId": 479,
+          "employeeName": "ahmad",
+          "deptId": 177,
+          "deptName": "Software",
+          "contactNo": "5555555",
+          "emailId": "a@a.com",
+          "role": "Admin Department Employee"
+        },
+        {
+          "employeeId": 485,
+          "employeeName": "tezera",
+          "deptId": 176,
+          "deptName": "More Edit333fd",
+          "contactNo": "0966929951",
+          "emailId": "Tezera@gmail.com",
+          "role": "Admin"
+        },
+        {
+          "employeeId": 490,
+          "employeeName": "johnson",
+          "deptId": 177,
+          "deptName": "Software",
+          "contactNo": "111111",
+          "emailId": "johnson@gmail.com",
+          "role": "Employee"
+        },
+        {
+          "employeeId": 491,
+          "employeeName": "johnson",
+          "deptId": 177,
+          "deptName": "Software",
+          "contactNo": "1234567890",
+          "emailId": "johnson1@gmail.com",
+          "role": "admin"
+        },
+        {
+          "employeeId": 506,
+          "employeeName": "tester",
+          "deptId": 177,
+          "deptName": "Software",
+          "contactNo": "1234567890",
+          "emailId": "test@test.com",
+          "role": "Admin Department Employee"
+        },
+        {
+          "employeeId": 507,
+          "employeeName": "ddd",
+          "deptId": 177,
+          "deptName": "Software",
+          "contactNo": "1122445566",
+          "emailId": "string",
+          "role": "string"
+        },
+        {
+          "employeeId": 515,
+          "employeeName": "Amet necessitatibus",
+          "deptId": 213,
+          "deptName": "sofifi",
+          "contactNo": "9876543245",
+          "emailId": "res@gmail.com",
+          "role": "Admin Department Employee"
+        },
+        {
+          "employeeId": 516,
+          "employeeName": "Sarkar",
+          "deptId": 177,
+          "deptName": "Software",
+          "contactNo": "8989786756",
+          "emailId": "test@gmail.com",
+          "role": "Department Head"
+        },
+        {
+          "employeeId": 517,
+          "employeeName": "Rashmi Ranjan Biswal",
+          "deptId": 179,
+          "deptName": "HR",
+          "contactNo": "9937356454",
+          "emailId": "ranjan@gmail.com",
+          "role": "Admin Department Employee"
+        },
+        {
+          "employeeId": 518,
+          "employeeName": "Testing",
+          "deptId": 180,
+          "deptName": "Management",
+          "contactNo": "9876543212",
+          "emailId": "testing@gmail.com",
+          "role": "Department Head"
+        },
+        {
+          "employeeId": 519,
+          "employeeName": "oct",
+          "deptId": 177,
+          "deptName": "Software",
+          "contactNo": "9889988990",
+          "emailId": "oct@gmail.com",
+          "role": "Admin Department Employee"
+        },
+        {
+          "employeeId": 520,
+          "employeeName": "Madhab",
+          "deptId": 180,
+          "deptName": "Management",
+          "contactNo": "9999999999",
+          "emailId": "mad@gmail.com",
+          "role": "Admin Department Employee"
+        },
+        {
+          "employeeId": 521,
+          "employeeName": "Santosh",
+          "deptId": 178,
+          "deptName": "Fianancement",
+          "contactNo": "9988223344",
+          "emailId": "san@gmail.com",
+          "role": "Super Admin"
+        },
+        {
+          "employeeId": 523,
+          "employeeName": "Pooja",
+          "deptId": 178,
+          "deptName": "Fianancement",
+          "contactNo": "9922323423",
+          "emailId": "pooja@gmail.com",
+          "role": "Employee"
+        },
+        {
+          "employeeId": 524,
+          "employeeName": "Arjun Kumar",
+          "deptId": 177,
+          "deptName": "Software",
+          "contactNo": "7788665566",
+          "emailId": "arj@gmail.com",
+          "role": "Super Admin"
+        },
+        {
+          "employeeId": 528,
+          "employeeName": "Nabi",
+          "deptId": 224,
+          "deptName": "Super Admin 1",
+          "contactNo": "1233912923",
+          "emailId": "nabi@gmail.com",
+          "role": "Super Admin"
+        },
+        {
+          "employeeId": 535,
+          "employeeName": "sadfsd",
+          "deptId": 179,
+          "deptName": "HR",
+          "contactNo": "asdfsdf",
+          "emailId": "sdafsdf",
+          "role": "Department Head"
+        },
+        {
+          "employeeId": 536,
+          "employeeName": "sdaddf",
+          "deptId": 210,
+          "deptName": "oil",
+          "contactNo": "asdfsdf",
+          "emailId": "sadfsdf",
+          "role": "Admin Department Employee"
+        },
+        {
+          "employeeId": 537,
+          "employeeName": "Momen",
+          "deptId": 177,
+          "deptName": "Software",
+          "contactNo": "kljdsflkj",
+          "emailId": "klasjdfklsjd",
+          "role": "Admin Department Employee"
+        },
+        {
+          "employeeId": 542,
+          "employeeName": "Shika",
+          "deptId": 189,
+          "deptName": "computer",
+          "contactNo": "asdf",
+          "emailId": "Shika@gmail.com",
+          "role": "Employee"
+        },
+        {
+          "employeeId": 543,
+          "employeeName": "Momen",
+          "deptId": 177,
+          "deptName": "Software",
+          "contactNo": "1271128807",
+          "emailId": "Momen1@gmail.com",
+          "role": "Admin Department Employee"
+        },
+        {
+          "employeeId": 548,
+          "employeeName": "lui",
+          "deptId": 177,
+          "deptName": "Software",
+          "contactNo": "111",
+          "emailId": "lui@gmail.com",
+          "role": "Super Admin"
+        },
+        {
+          "employeeId": 593,
+          "employeeName": "super_admin",
+          "deptId": 180,
+          "deptName": "Management",
+          "contactNo": "1111222233",
+          "emailId": "ali.mohamed.ali31199@gmail.com",
+          "role": "Employee"
+        },
+        {
+          "employeeId": 595,
+          "employeeName": "super_admin",
+          "deptId": 176,
+          "deptName": "More Edit333fd",
+          "contactNo": "1111222233",
+          "emailId": "alifcih0@gmail.com",
+          "role": "Employee"
+        },
+        {
+          "employeeId": 596,
+          "employeeName": "super_admin",
+          "deptId": 177,
+          "deptName": "Software",
+          "contactNo": "1111222233",
+          "emailId": "super_admin@gmail.com",
+          "role": "Super Admin"
+        },
+        {
+          "employeeId": 597,
+          "employeeName": "Department Head",
+          "deptId": 177,
+          "deptName": "Software",
+          "contactNo": "1111111111",
+          "emailId": "alifcih11@gmail.com",
+          "role": "Department Head"
+        },
+        {
+          "employeeId": 604,
+          "employeeName": "dfsdf",
+          "deptId": 210,
+          "deptName": "oil",
+          "contactNo": "sdfs",
+          "emailId": "sdf@gmail.com",
+          "role": "Department Head"
+        },
+        {
+          "employeeId": 609,
+          "employeeName": "prakash",
+          "deptId": 178,
+          "deptName": "Fianancement",
+          "contactNo": "9876543212",
+          "emailId": "prakash@gmail.com",
+          "role": "Employee"
+        }
+      ]
+    },
+    "/api/TicketsNew/Login": {
+      "message": "LoginSuccessful",
+      "result": true,
+      "data": [
+        {
+          "employeeId": 333,
+          "employeeName": "Affan",
+          "deptId": 176,
+          "deptName": "More Edit333fd",
+          "contactNo": "9988776655",
+          "emailId": "affan@gmail.com",
+          "role": "Super Admin"
+        }
+      ]
+    },
+    "/api/TicketsNew/CreateNewTicket": {
+        "message": "Department Created",
+        "result": true,
+        "data": [
+            {
+                "ticketId": 698,
+                "createdDate": "2024-05-18T16:26:11.96",
+                "expectedEndDate": "2024-05-25T16:26:11.96",
+                "state": "Closed",
+                "severity": "Low",
+                "contactNo": "9988776655",
+                "ticketNo": "Req-139-333-1",
+                "deptName": "More Edit333fd",
+                "createdByEmployee": "Anjalim",
+                "assignedToEmployee": "kaveri",
+                "completedDate": null
+              }
+        ]
+    },
+    "/api/TicketsNew/GetTicketsCreatedByEmployee": {
+        "message": "",
+        "result": true,
+        "data": [
+            {
+                "ticketId": 698,
+                "createdDate": "2024-05-18T16:26:11.96",
+                "expectedEndDate": "2024-05-25T16:26:11.96",
+                "state": "Closed",
+                "severity": "Low",
+                "contactNo": "9988776655",
+                "ticketNo": "Req-139-333-1",
+                "deptName": "More Edit333fd",
+                "createdByEmployee": "Anjalim",
+                "assignedToEmployee": "kaveri",
+                "completedDate": null
+              },
+              {
+                "ticketId": 699,
+                "createdDate": "2024-05-18T16:26:37.983",
+                "expectedEndDate": "2024-05-25T16:26:37.983",
+                "state": "Closed",
+                "severity": "Medium",
+                "contactNo": "1234567895",
+                "ticketNo": "Req-139-334-2",
+                "deptName": "Software",
+                "createdByEmployee": "Raj",
+                "assignedToEmployee": "Raj",
+                "completedDate": null
+              },
+              {
+                "ticketId": 700,
+                "createdDate": "2024-05-18T16:27:11.887",
+                "expectedEndDate": "2024-05-25T16:27:11.887",
+                "state": "In-Progress",
+                "severity": "High",
+                "contactNo": "12345678",
+                "ticketNo": "Req-139-335-3",
+                "deptName": "Fianancement",
+                "createdByEmployee": "Mrunamyi",
+                "assignedToEmployee": "pratiksha",
+                "completedDate": null
+              },
+              {
+                "ticketId": 701,
+                "createdDate": "2024-05-18T16:27:19.603",
+                "expectedEndDate": "2024-05-25T16:27:19.603",
+                "state": "In-Progress",
+                "severity": "High",
+                "contactNo": "9988776655",
+                "ticketNo": "Req-139-333-4",
+                "deptName": "Fianancement",
+                "createdByEmployee": "Anjalim",
+                "assignedToEmployee": "Avdut",
+                "completedDate": null
+              },
+              {
+                "ticketId": 702,
+                "createdDate": "2024-05-18T16:33:08.15",
+                "expectedEndDate": "2024-05-25T16:33:08.15",
+                "state": "In-Progress",
+                "severity": "hjk",
+                "contactNo": "9876543212",
+                "ticketNo": "Req-139-337-5",
+                "deptName": "Fianancement",
+                "createdByEmployee": "pratiksha",
+                "assignedToEmployee": "Ishu",
+                "completedDate": null
+              },
+              {
+                "ticketId": 703,
+                "createdDate": "2024-05-20T21:59:50.633",
+                "expectedEndDate": "2024-05-27T21:59:50.633",
+                "state": "Closed",
+                "severity": "Medium",
+                "contactNo": "9988776655",
+                "ticketNo": "Req-141-333-6",
+                "deptName": "Fianancement",
+                "createdByEmployee": "Anjalim",
+                "assignedToEmployee": "pratiksha",
+                "completedDate": null
+              },
+              {
+                "ticketId": 704,
+                "createdDate": "2024-05-20T22:23:36.24",
+                "expectedEndDate": "2024-05-27T22:23:36.24",
+                "state": "In-Progress",
+                "severity": "Low",
+                "contactNo": "9988776655",
+                "ticketNo": "Req-141-333-7",
+                "deptName": "Fianancement",
+                "createdByEmployee": "Anjalim",
+                "assignedToEmployee": "Ishu",
+                "completedDate": null
+              },
+              {
+                "ticketId": 709,
+                "createdDate": "2024-05-20T23:36:11.797",
+                "expectedEndDate": "2024-05-27T23:36:11.797",
+                "state": "Closed",
+                "severity": "Low",
+                "contactNo": "9988776655",
+                "ticketNo": "Req-141-333-9",
+                "deptName": "Software",
+                "createdByEmployee": "Anjalim",
+                "assignedToEmployee": "Raj",
+                "completedDate": null
+              },
+              {
+                "ticketId": 710,
+                "createdDate": "2024-05-21T16:26:46.253",
+                "expectedEndDate": "2024-05-28T16:26:46.253",
+                "state": "Closed",
+                "severity": "High",
+                "contactNo": "9988776655",
+                "ticketNo": "Req-142-333-10",
+                "deptName": "Software",
+                "createdByEmployee": "Anjalim",
+                "assignedToEmployee": "Raj",
+                "completedDate": null
+              },
+              {
+                "ticketId": 711,
+                "createdDate": "2024-05-21T16:28:11.283",
+                "expectedEndDate": "2024-05-28T16:28:11.283",
+                "state": "In-Progress",
+                "severity": "Medium",
+                "contactNo": "9988776655",
+                "ticketNo": "Req-142-333-11",
+                "deptName": "HR",
+                "createdByEmployee": "Anjalim",
+                "assignedToEmployee": "kaveri",
+                "completedDate": null
+              },
+              {
+                "ticketId": 713,
+                "createdDate": "2024-05-23T22:32:54.65",
+                "expectedEndDate": "2024-05-30T22:32:54.65",
+                "state": "Assigned",
+                "severity": "Medium",
+                "contactNo": "9876543212",
+                "ticketNo": "Req-144-337-13",
+                "deptName": "Management",
+                "createdByEmployee": "pratiksha",
+                "assignedToEmployee": "kaveri",
+                "completedDate": null
+              },
+              {
+                "ticketId": 714,
+                "createdDate": "2024-05-25T16:44:05.257",
+                "expectedEndDate": "2024-06-01T16:44:05.257",
+                "state": "Assigned",
+                "severity": "Medium",
+                "contactNo": "9876543212",
+                "ticketNo": "Req-146-337-14",
+                "deptName": "Management",
+                "createdByEmployee": "pratiksha",
+                "assignedToEmployee": "kaveri",
+                "completedDate": null
+              },
+              {
+                "ticketId": 715,
+                "createdDate": "2024-05-25T17:41:17.76",
+                "expectedEndDate": "2024-06-01T17:41:17.76",
+                "state": "Un-Assigned",
+                "severity": "Medium",
+                "contactNo": "9876543212",
+                "ticketNo": "Req-146-337-15",
+                "deptName": "HR",
+                "createdByEmployee": "pratiksha",
+                "assignedToEmployee": null,
+                "completedDate": null
+              },
+              {
+                "ticketId": 718,
+                "createdDate": "2024-06-02T19:43:55.593",
+                "expectedEndDate": "2024-06-09T19:43:55.593",
+                "state": "Assigned",
+                "severity": "Medium",
+                "contactNo": "121212",
+                "ticketNo": "Req-154-350-16",
+                "deptName": "Software",
+                "createdByEmployee": "abc",
+                "assignedToEmployee": "Marrazzo Giggino",
+                "completedDate": null
+              },
+              {
+                "ticketId": 719,
+                "createdDate": "2024-06-02T23:55:24.103",
+                "expectedEndDate": "2024-06-09T23:55:24.103",
+                "state": "Un-Assigned",
+                "severity": "Medium",
+                "contactNo": "121212",
+                "ticketNo": "Req-154-350-17",
+                "deptName": "More Edit333fd",
+                "createdByEmployee": "abc",
+                "assignedToEmployee": null,
+                "completedDate": null
+              },
+              {
+                "ticketId": 720,
+                "createdDate": "2024-06-03T01:17:54.747",
+                "expectedEndDate": "2024-06-10T01:17:54.747",
+                "state": "Un-Assigned",
+                "severity": "Medium",
+                "contactNo": "121212",
+                "ticketNo": "Req-155-350-18",
+                "deptName": "Fianancement",
+                "createdByEmployee": "abc",
+                "assignedToEmployee": null,
+                "completedDate": null
+              },
+              {
+                "ticketId": 721,
+                "createdDate": "2024-06-03T01:21:10.737",
+                "expectedEndDate": "2024-06-10T01:21:10.737",
+                "state": "Un-Assigned",
+                "severity": "High",
+                "contactNo": "121212",
+                "ticketNo": "Req-155-350-19",
+                "deptName": "hjK",
+                "createdByEmployee": "abc",
+                "assignedToEmployee": null,
+                "completedDate": null
+              },
+              {
+                "ticketId": 722,
+                "createdDate": "2024-06-03T01:24:59.937",
+                "expectedEndDate": "2024-06-10T01:24:59.937",
+                "state": "Un-Assigned",
+                "severity": "Low",
+                "contactNo": "121212",
+                "ticketNo": "Req-155-350-20",
+                "deptName": "Electronics",
+                "createdByEmployee": "abc",
+                "assignedToEmployee": null,
+                "completedDate": null
+              },
+              {
+                "ticketId": 723,
+                "createdDate": "2024-06-03T02:26:02.15",
+                "expectedEndDate": "2024-06-10T02:26:02.15",
+                "state": "Closed",
+                "severity": "High",
+                "contactNo": "1234567",
+                "ticketNo": "Req-155-348-21",
+                "deptName": "Software",
+                "createdByEmployee": "nib",
+                "assignedToEmployee": "Raj",
+                "completedDate": null
+              }
+        ]
+      }
+  }
